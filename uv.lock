@@ -919,6 +919,7 @@ dependencies = [
     { name = "ipykernel" },
     { name = "matplotlib" },
     { name = "metaflow" },
+    { name = "mplsoccer" },
     { name = "notebook" },
     { name = "numpy" },
     { name = "pandas" },
@@ -933,6 +934,7 @@ requires-dist = [
     { name = "ipykernel", specifier = ">=6.29.5" },
     { name = "matplotlib", specifier = ">=3.10.0" },
     { name = "metaflow", specifier = ">=2.13" },
+    { name = "mplsoccer", specifier = ">=1.4.0" },
     { name = "notebook", specifier = ">=7.3.1" },
     { name = "numpy", specifier = ">=2.2.0" },
     { name = "pandas", specifier = ">=2.2.3" },
@@ -940,6 +942,24 @@ requires-dist = [
     { name = "scikit-learn", specifier = ">=1.6.0" },
     { name = "seaborn", specifier = ">=0.13.2" },
     { name = "streamlit", specifier = ">=1.41.1" },
+]
+
+[[package]]
+name = "mplsoccer"
+version = "1.4.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "matplotlib" },
+    { name = "numpy" },
+    { name = "pandas" },
+    { name = "pillow" },
+    { name = "requests" },
+    { name = "scipy" },
+    { name = "seaborn" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/49/46/0410d5d6308dbac970acb7fdf571930dbd3c6dd1f03bc6e409688e4aee4b/mplsoccer-1.4.0.tar.gz", hash = "sha256:1c86bababc2922a35fc523431effd2f8158c98d8481a98fa4a1ad126f39e412c", size = 829994 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/1f/45/fe2e10f4149c7c54a175cd5b73872ac3f0b96b77c1b59f1309f02576c045/mplsoccer-1.4.0-py3-none-any.whl", hash = "sha256:19836575a9a16ba9624df3b4b71484bc56fe4133132a71aa8b0246971238bc1c", size = 85782 },
 ]
 
 [[package]]

@@ -9,3 +9,10 @@ wheels/
 # Virtual environments
 .venv
 data/raw/*.json
+data/raw/*.csv
+data/cache/*
+data/transformed/*
+
+# Keep directories
+!data/cache/.gitkeep
+!data/transformed/.gitkeep
